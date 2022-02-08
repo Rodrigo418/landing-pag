@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #0f1725;
+    width: 100%;
+}
+
+header {
+    background-color: #333333;
+    padding-left: 20px;
+    border-radius: 20px 20px 2px 2px ;
+}
+
+div {
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-around;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: #cccccc;
+}
+
+button {
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:  #ffffff;
+    background-color: #cf3952;
+    height: 40px;
+}
+
+form {
+    flex-direction: row;
+}
+h2 {
+    color: #c2c5c7;
+    text-align: center;
+    margin-top: 30px;
+
+    padding: 10px;
+}
+.ab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.a{
+    width: 350px;
+    height: 200px;
+    margin-top: 150px;
+}
+.b {
+    width: 350px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.texto1 {
+    display: inline-flex;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.texto2 {
+    display: inline-flex;
+    color:  #d2246e;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.texto3 {
+    display: inline-flex;
+    color: #ffffff;
+    font-size: 15px;
+}
+.texto4 {
+    display: inline-flex;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.texto5 {
+    display: inline-flex;
+    color: #ffffff;
+
+}
+.imput0 {
+    padding-left: 20px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
